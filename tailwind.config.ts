@@ -1,13 +1,13 @@
-import type { Config } from "tailwindcss"
-const { withUt } = require("uploadthing/tw")
+import type { Config } from "tailwindcss";
+const { withUt } = require("uploadthing/tw");
 
 const config = withUt({
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
   ],
   prefix: "",
   theme: {
@@ -17,6 +17,15 @@ const config = withUt({
       screens: {
         "2xl": "1400px",
       },
+    },
+    fontSize: {
+      "heading3-bold": [
+        "20px",
+        {
+          lineHeight: "140%",
+          fontWeight: "700",
+        },
+      ],
     },
     extend: {
       colors: {
@@ -76,6 +85,6 @@ const config = withUt({
     },
   },
   plugins: [require("tailwindcss-animate")],
-}) satisfies Config
+}) satisfies Config;
 
-export default config
+export default config;
