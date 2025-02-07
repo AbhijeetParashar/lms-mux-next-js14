@@ -3,6 +3,9 @@ import { auth } from "@clerk/nextjs/server";
 import Mux from "@mux/mux-node";
 import { NextResponse } from "next/server";
 
+// Opt out of static generation
+export const dynamic = "force-dynamic";
+
 const mux = new Mux({
   tokenId: process.env.MUX_TOKEN_ID,
   tokenSecret: process.env.MUX_TOKEN_SECRET,
