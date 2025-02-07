@@ -4,6 +4,9 @@ import { currentUser } from "@clerk/nextjs/server";
 import { NextResponse } from "next/server";
 import Stripe from "stripe";
 
+// Opt out of static generation
+export const dynamic = "force-dynamic";
+
 export async function POST(
   req: Request,
   { params }: { params: { courseId: string } }
