@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     siteName: "LearnSync",
     images: [
       {
-        url: "https://github-production-user-asset-6210df.s3.amazonaws.com/53019674/410917980-9cd35b97-de2d-475c-a79c-e8eac1122558.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250207%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250207T125447Z&X-Amz-Expires=300&X-Amz-Signature=7c160eb515969822d2635efd2f4329bbf657e72e3b50fbc6c705785409bafd7b&X-Amz-SignedHeaders=host",
+        url: "https://i.pinimg.com/736x/03/38/49/033849c02cce59f381bc7d122f71d737.jpg",
         width: 800,
         height: 600,
         alt: "LearnSync - Streamline Your Learning",
@@ -55,7 +55,8 @@ export const metadata: Metadata = {
     description:
       "Discover LearnSync, a platform by Abhijeet Kumar, designed to enhance your learning experience with innovative tools and resources.",
     images: [
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/53019674/410917980-9cd35b97-de2d-475c-a79c-e8eac1122558.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250207%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250207T125447Z&X-Amz-Expires=300&X-Amz-Signature=7c160eb515969822d2635efd2f4329bbf657e72e3b50fbc6c705785409bafd7b&X-Amz-SignedHeaders=host",
+      "https://i.pinimg.com/736x/03/38/49/033849c02cce59f381bc7d122f71d737.jpg",
+      "https://i.pinimg.com/736x/74/f9/56/74f9569e940a6155371ee950544e4f38.jpg",
     ],
   },
   robots: {
